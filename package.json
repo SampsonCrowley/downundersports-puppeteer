@@ -1,0 +1,21 @@
+{
+  "name": "downundersports-puppeteer",
+  "engines": {
+    "node": "11.14.0"
+  },
+  "version": "0.0.1",
+  "description": "SSR processing for downundersports.com",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.14.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
